@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    background: white;
+}
+
+.container__card{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+    background: orange;
+    perspective: 200px;
+    display: inline-block;
+
+}
+.card__father{
+    margin: 20px;
+    position: 1000px;
+    
+}
+.card__father:hover .card{
+    transform: rotateY(180deg);
+
+}
+
+.card{
+    width: 350px;
+    height: 400px;
+    background: rgb(85, 85, 192);
+    position: relative;
+    transform-style: preserve-3d;
+    transform: all 600ms;
+    display: inline-block;
+    
+    
+}
+.card__front{
+    background-size: cover;
+    background-position: center;
+}
+.card__front,
+.card__back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+
+    border-radius: 20px;
+}
+
+.card__back {
+    transform: rotateY(180deg);
+    background: rgb(119, 112, 112);
+}
+
+.body__card_front{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    transform: translateZ(60px);
+
+}
+.bg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    *background: rgb(0,0,0,0.4);
+    border-radius: 20px;
+}
+
+.body__card_back{
+    padding: 40px;
+    text-align: center;
+    transform: translateZ(80px);
+}
+
+.bpdy__card_back p{
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.bpdy__card_back input{
+    padding: 10px 40px;
+    margin-top: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    color: rgb(206, 36, 36);
+    background: #58B0F6;
+    box-shadow: 1px 1px 30px -5px #58B0F6;
+    border-radius: 10px;
+    transition: box-shadow 600ms;
+
+}
+
+.body__card_back input:hover{
+    box-shadow: 1px 1px 30px -5px #2d85cc;
+}
+
+.tarjeta{
+    display: inline-flex;
+}
+button {
+    margin: 25px;
+}

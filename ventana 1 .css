@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Serif Display', serif;
+    text-decoration: none;
+}
+
+header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #fff;
+}
+//HEADER SUPERIOR
+
+.logo2 {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.logo {
+    width: 100px;
+}
+.search input {
+    width: 300px;
+    padding: 10px;
+}
+//BARRA MENU
+
+.menu2 {
+    background: rgb(219, 209, 213);
+    width: 80%;
+    height: 20px;
+    margin: auto;
+
+nav {
+    height: 100%;
+}
+nav > ul {
+     height: 100%;
+     display: flex;
+}
+
+nav  ul  li {
+    height: 100%;
+    list-style: none;
+    position: relative;
+}
+nav  ul  li a{
+    display: inline;
+}
+nav > ul >  :first-child > a  {
+    background-image: url(/img/hogar.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 20px 30px;
+
+}
+
+nav > ul > li :first-child:hover >  {
+    background-image: url(/img/hogar.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+}
+
+
+
+nav > ul > li > a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all 300ms ease;
+
+}
+
+nav > ul > li > a:hover{
+    transform: scale(1.1);
+    background: #fff;
+    box-shadow: 0px 0 px 10px 0px rgb(3, 3, 3);
+}
+
+#selected {
+    transform: scale(1.1);
+    background-color: rgb(221, 18, 18);
+    box-shadow: 0px 0 px 10px 0px rgb(3, 3, 3);
+}
+
+
+
+//SUBMENU
+nav ul li ul {
+    width: 200px;
+     display: flex;
+     flex-direction: column;
+     background: #fff;
+     position: absolute;
+     top: 60px;
+     left: -5px;
+     padding: 10px 0px;
+     visibility: hidden;
+     opacity: 0;
+     box-shadow: 0px 0px 10px 0px black;
+     z-index: 10;
+     transition: all 300ms ease;
+}
+
+nav ul li:hover ul {
+    visibility: visible;
+    opacity: 1;
+    top: 70px;
+}
+
+nav ul li ul::before {
+    content: "";
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 12px solid white;
+    top: -12px;
+    left: 20px;
+}
+
+nav ul li ul li a {
+    display: block;
+    color: blueviolet;
+    padding: 7px;
+    padding-left: 14px;
+    text-transform: uppercase ;
+    transition: all 300ms ease;
+}
+nav ul li ul li a :hover {
+    background:  #0074c7;
+    color: white;
+    transform: scale(1.1);
+    padding-left: 30px;
+    font-size: 14px;
+    box-shadow: 0px 0px 10px 0px black;
+}
+.ancho{
+    background: rgb(33, 83, 248);
+    width: 80%;
+    height: 20px;
+    margin: auto;
+}
+nav{
+        text-align: center;
+}
+nav ul li{
+    display: inline;
+   }
+   nav ul li a{
+       color: white;
+       font-size: 15px;
+       text-decoration: none;
+       text-transform: uppercase;
+       padding-left: 15px;
+
+   }
+    nav ul li a:hover{
+        color: black;
+    }
+#O{
+    background: rgb(255, 255, 255);
+    border: 1px solidblack;
+}
+
+.imagen:hover { 
+    filter: sepia(60%);
+}
+#principal{
+    float: left;
+    margin: 20px;
+    width: 800px;
+    border: 1px solid black;
+}
+  #panel{
+    width: 200px;
+    float: right;
+    border: 2px solid gray;
+    display: block;
+}
+aside p a{
+    color: black;
+    display: inline;
+    text-decoration: none;
+}
+#principal1{
+    float: left;
+    margin: 20px;
+    width: 800px;
+    border: none;
+}  
+#panel1{
+    width: 250px;
+    float: left;
+    border: none;
+    display: block;
+}
+#panel2{
+    width: 250px;
+    float: right;
+    border: none;
+    display: block;
+}
+.imagen:hover {filter: opacity(.2);}
+
+table{
+    border-collapse: collapse;
+    border: 2px black; 
+    font-size: 50px;
+
+}
+#fondo{
+    background-color: rgb(184, 180, 180);
+}

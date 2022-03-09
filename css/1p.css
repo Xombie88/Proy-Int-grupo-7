@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background:rgb(36, 34, 34);
+    height: 200px;
+}
+
+.container__header{
+    max-width: 1200px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+/*PORTADA - COVER*/
+
+main{
+    height: calc(100vh + 800px);
+    background:rgb(36, 34, 34);
+}
+
+.container__cover{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.cover{
+    padding-top: 60px;
+    display: flex;
+}
+
+.text__information{
+    width: 50%;
+}
+
+.text__information h1{
+    font-size: 60px;
+}
+
+.text__information p{
+    font-size: 28px;
+    margin-top: 40px;
+}
+
+.buttons__cover{
+    display: flex;
+    margin-top: 40px;
+}
+
+.buttons__cover .read-more{
+    padding: 14px 40px;
+    border: none;
+    background: rgb(172, 112, 35);
+    color: black;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 300ms;
+    margin-left: 10px;
+}
+
+.buttons__cover .read-more:hover{
+    background: rgb(172, 112, 35);
+}
+
+.media__cover{
+    width: 50%;
+
+}
+
+.media__cover video{
+    width: 700px;
+    margin-top: -80px;
+}
+
+/*BANNER*/
+
+.container__banner{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.banner{
+    height: 250px;
+    display: flex;
+    align-items: center;
+    background: #121214;
+    position: relative;
+}
+
+.banner .icon{
+    width: 40%;
+}
+
+
+.banner .text{
+    width: 60%;
+    position: relative;
+}
+
+.banner .text h2{
+    color: white;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.banner .text input{
+    margin-top: 20px;
+    background: transparent;
+    color: rgb(241, 74, 74);
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 300ms;
+}
+
+.banner .text input:hover{
+    color: #69F1A1;
+}
+
+.img__icon-fire{
+    height: 100%;
+    position: absolute;
+    right: 10px;
+    overflow: hidden;
+}
+
+#icon_heart{
+    width: 400px;
+    margin-top: 80px;
+    position: relative;
+    filter: drop-shadow(-20px 0px 30px rgba(0,0,0,0.5));
+}
+#icon_fire{
+    width: 300px;
+    position: relative;
+    margin-top: -100px;
+    opacity: 0.6;
+}

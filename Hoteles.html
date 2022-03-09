@@ -1,0 +1,304 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="skeleton.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    
+   </div>
+
+        <nav>
+            <ul class="menu">
+                <img class="logo" 
+                src="logo.jpg" alt="" width="150px">
+                 <li><a href="Inicio.html">Inicio</a></li>
+                 <li><a href="Rutas.html">Rutas</a>
+                    <ul class="menu-vertical">
+                        
+                        <li><a href="Seguridad Turistica.html">Seguridad Turistica</a></li>
+                        
+                        <li><a href="Puntos de información turística.html">Puntos de información turística</a></li>
+        
+                    </ul>
+                </li>
+                 <li><a href="Hoteles.html">Hoteles</a>
+
+                    <ul class="menu-vertical">
+                        <li><a href="Bares.html">Bares</a></li>
+                        <li><a href="restaurante.html">Restaurantes</a></li>
+                       </ul>  
+                    </li>
+                 <li><a href="contactos.html">Contactos</a>
+                    <ul class="menu-vertical">
+                        <li><a href="comentario.html">Comentarios</a></li>
+                       
+                       </ul>
+                </li>
+                 <li><a href="login.html">Login</a></li>
+      
+      
+            </ul>
+          </nav>
+
+   </div>
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="four columns">
+                    <h1><img src="cama.png" alt="" width="50px"> <br>Hoteles</h1>
+                </div>
+                <div class="two columns u-pull-right">
+                    <ul>
+                        <li class="submenu">
+                            <img src="cart.png" alt="">
+                            <div id="carrito">
+                                <p class="vacio">carrito vacio</p>
+                                <table id="lista-carrito" class="u-full-width">
+                                    <thead>
+                                        <tr>
+                                            <th>Imagen</th>
+                                            <th>Hoteles</th>
+                                            <th>Precio</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                       
+                                    </tbody>
+                                </table>
+                                <a href="" id="vaciar-carrito" class="button u-full-width">vaciar carrito</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="hero">
+        <div class="container"> 
+            <div class="row">  
+                <div class="six columns">
+                    <div class="contenido-hero">
+                        <h2>Hotel a tu comodidad</h2>
+                        <p>Todos los Hoteles</p>
+                        <form>
+                            <input class="u-full-width" type="text" placeholder="¿Que te gustaria probar?" id="buscador">
+                            <input type="submit" class="submit-buscador">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="barra">
+        <div class="container">
+            <div class="row">
+                <div class="four columns icono icono1">
+                    <p>100 Hoteles diferentes<br>
+                    Explora Hoteles </p>
+                </div>
+                <div class="four columns icono icono2">
+                    <p>Hoteles de 3 a 5 estrellas<br>
+                    Prueba una experiencia en tu hotel</p>
+                </div>
+                <div class="four columns icono icono3">
+                    <p>Desayuno continental incluido<br>
+                    Prueba tu desayuno deseado</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="lista-platillos" class="container">
+        <h1 class="encabezado">Pedidos en Linea</h1>
+
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <h3>Plaza Grande HotelSe</h3>
+                    <img src="plaza Grande.jpg" class="imagen-platillo u-full-width">
+                    <div class="info-card">
+                        <h4>Desayuno incluido (Fantástico)</h4>
+                         <p>WiFi gratis, Minibar</p>
+                        <img src="estrellas.png">
+                        <p class="precio">$225 <span class="u-pull-right">$300</span> </p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="0">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <h3>Rincón Familiar Hostel </h3>
+                    <img src="Rincon.jpg" class="imagen-platillo u-full-width">
+                    <div class="info-card">
+                        <h4>Desayuno incluido (Bueno)</h4>
+                        <p>WiFi gratis, TV de pantalla plana</p>
+                        <img src="estrellas.png">
+                        <p class="precio">$53 <span class="u-pull-right">$47</span> </p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <h3>Hotel Casona 1914</h3>
+                    <img src="casona 1914.jpg" class="imagen-platillo u-full-width">
+                    <div class="info-card">
+                        <h4>Desayuno incluido (Excepcional)</h4>
+                        <p>WiFi gratis, Cocina privada</p>
+                        <img src="estrellas.png">
+                        <p class="precio">$50 <span class="u-pull-right">$15</span> </p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="2">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <h3>Hotel DavidSe</h3>
+                    <img src="David.jpg" class="imagen-platillo u-full-width">
+                    <div class="info-card">
+                        <h4>Desayuno incluido (Bueno)</h4>
+                        <p>WiFi gratis, TV de pantalla plana</p>
+                        <img src="estrellas4.png">
+                        <p class="precio">$193 <span class="u-pull-right">$225</span> </p>
+                        <a href="https://www.booking.com/searchresults.es.html?aid=306396;label=quito-EWagUa1OwECKg98lY_XRkgS255699740312%3Apl%3Ata%3Ap1380%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atiaud-297601666555%3Akwd-1104710611%3Alp9069516%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YdnZzv7u3SiOco5fpqS0M1M;sid=bb0d5c418b2fa75b157ff01ad5839a62;dest_id=-932573;dest_type=city;highlighted_hotels=1420383&" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <h3>Old Town Quito</h3>
+                    <img src="old.jpg" class="imagen-platillo u-full-width">
+                    <div class="info-card">
+                        <h4>Desayuno incluido (Excepcional)</h4>
+                        <p>WiFi gratis, Minibar, TV de pantalla plana</p>
+                        <img src="estrellas.png">
+                        <p class="precio">$165 <span class="u-pull-right">$151</span> </p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="3">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <h3>JW Marriott Hotel Quito</h3>
+                    <img src="JW.jpg" class="imagen-platillo u-full-width">
+                    <div class="info-card">
+                        <h4>Spa y centro de bienestar</h4>
+                        <p>WiFi gratis, Gimnasio</p>
+                        <img src="estrellas.png">
+                        <p class="precio">$138 <span class="u-pull-right">$141</span> </p>
+                        <a href="https://www.booking.com/hotel/ec/jw-marriott-quito.es.html?aid=306396;label=quito-EWagUa1OwECKg98lY_XRkgS255699740312%3Apl%3Ata%3Ap1380%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atiaud-297601666555%3Akwd-1104710611%3Alp9069516%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YdnZzv7u3SiOco5fpqS0M1M;sid=bb0d5c418b2fa75b157ff01ad5839a62;dest_id=-932573;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=19;hpos=19;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=popularity;srepoch=1645740461;srpvid=29db9b9670c20161;type=total;ucfs=1&" class="u-full-width button-primary button input agregar-carrito" data-id="4">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <h3>Portal de Cantuña</h3>
+                    <img src="Cantuña.jpg" class="imagen-platillo u-full-width">
+                    <div class="info-card">
+                        <h4>Desayuno incluido (Fabuloso)</h4>
+                        <p>WiFi gratis, Baño privado</p>
+                        <img src="estrellas.png">
+                        <p class="precio">$83 <span class="u-pull-right">$75</span> </p>
+                        <a href="https://www.booking.com/hotel/ec/boutique-portal-de-cantua-a.es.html?aid=376644;label=quito%2Fcentrohistorico-%2AKJ2b_yMkMRJu99XfTpS1wS431710052323%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-18821899839%3Alp9069516%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YcGt_tphEo8pLz4JcmekErU;sid=bb0d5c418b2fa75b157ff01ad5839a62;dest_id=3894;dest_type=district;dist=0;group_adults=2;group_children=0;hapos=11;hpos=11;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=popularity;srepoch=1645640143;srpvid=a66d8067aa3f0314;type=total;ucfs=1&#hotelTmpl" class="u-full-width button-primary button input agregar-carrito" data-id="5">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <h3>Casa El Edén </h3>
+                    <img src="casa eden.jpg" class="imagen-platillo u-full-width">
+                    <div class="info-card">
+                        <h4>Traslado aeropuerto</h4>
+                        <p>Bar, Servicio de habitaciones</p>
+                        <img src="estrellas.png">
+                        <p class="precio">$166 <span class="u-pull-right">$180</span> </p>
+                        <a href="https://www.booking.com/hotel/ec/casa-el-eden.es.html?aid=376644;label=quito%2Fcentrohistorico-%2AKJ2b_yMkMRJu99XfTpS1wS431710052323%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-18821899839%3Alp9069516%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YcGt_tphEo8pLz4JcmekErU;sid=bb0d5c418b2fa75b157ff01ad5839a62;dest_id=3894;dest_type=district;dist=0;group_adults=2;group_children=0;hapos=12;hpos=12;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=popularity;srepoch=1645640143;srpvid=a66d8067aa3f0314;type=total;ucfs=1&#hotelTmpl" class="u-full-width button-primary button input agregar-carrito" data-id="6">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <h3>Casa LunaLoma</h3>
+                    <img src="LunaLoma.jpg" class="imagen-platillo u-full-width">
+                    <div class="info-card">
+                        <h4>Traslado aeropuerto</h4>
+                        <p>WiFi gratis</p>
+                        <img src="estrellas.png">
+                        <p class="precio">$68 <span class="u-pull-right">$78</span> </p>
+                        <a href="https://www.booking.com/hotel/ec/elegant-amp-exclusive-loft.es.html?aid=376644;label=quito%2Fcentrohistorico-%2AKJ2b_yMkMRJu99XfTpS1wS431710052323%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-18821899839%3Alp9069516%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YcGt_tphEo8pLz4JcmekErU;sid=bb0d5c418b2fa75b157ff01ad5839a62;dest_id=3894;dest_type=district;dist=0;group_adults=2;group_children=0;hapos=13;hpos=13;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=popularity;srepoch=1645640143;srpvid=a66d8067aa3f0314;type=total;ucfs=1&#hotelTmpl" class="u-full-width button-primary button input agregar-carrito" data-id="7">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <h3>Hotel San Francisco De Quito</h3>
+                    <img src="San F.jpg" class="imagen-platillo u-full-width">
+                    <div class="info-card">
+                        <h4> Adaptado personas de movilidad reducida</h4>
+                        <p>Bar, WiFi gratis, Buen desayuno</p>
+                        <img src="estrellas.png">
+                        <p class="precio">$72 <span class="u-pull-right">$65</span> </p>
+                        <a href="https://www.booking.com/hotel/ec/san-francisco-de-quito.es.html?aid=376644;label=quito%2Fcentrohistorico-%2AKJ2b_yMkMRJu99XfTpS1wS431710052323%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-18821899839%3Alp9069516%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YcGt_tphEo8pLz4JcmekErU;sid=bb0d5c418b2fa75b157ff01ad5839a62;dest_id=3894;dest_type=district;dist=0;group_adults=2;group_children=0;hapos=14;hpos=14;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=popularity;srepoch=1645640143;srpvid=a66d8067aa3f0314;type=total;ucfs=1&#hotelTmpl" class="u-full-width button-primary button input agregar-carrito" data-id="8">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <h3> Hotel Casa Montero</h3>
+                    <img src="Montero.jpg"class="imagen-platillo u-full-width">
+                    <div class="info-card">
+                        <h4>Desayuno fabuloso</h4>
+                        <p>WiFi gratis, Traslado aeropuerto</p>
+                        <img src="">
+                        <p class="precio">$75 <span class="u-pull-right">$85</span> </p>
+                        <a href="https://www.booking.com/hotel/ec/hostal-casa-montero.es.html?aid=376644;label=quito%2Fcentrohistorico-%2AKJ2b_yMkMRJu99XfTpS1wS431710052323%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-18821899839%3Alp9069516%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YcGt_tphEo8pLz4JcmekErU;sid=bb0d5c418b2fa75b157ff01ad5839a62;dest_id=3894;dest_type=district;dist=0;group_adults=2;group_children=0;hapos=17;hpos=17;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=popularity;srepoch=1645640143;srpvid=a66d8067aa3f0314;type=total;ucfs=1&#hotelTmpl" class="u-full-width button-primary button input agregar-carrito" data-id="9">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+<div class="container-footer">
+    <footer>
+        <div class="contenedor-footer">
+            <div class="content-foo">
+                <h4>Telefono</h4>
+                <p>0995750050 / 0985003812 / 0960809450</p>
+                <p>Jose / Anthony / Johann</p>
+            </div>
+            <div class="content-foo">
+                <h4>Correo Electronico</h4>
+                <p>quemasve@elbicho.com</p>
+                <p>messi♠10@metegol.com</p>
+                <p>quishpeaimacaña@gmail.com</p>
+            </div>
+        </div>
+        <hr>
+        <center><h4>&copy; Primero A Mat | Grupo 7 | 2021 - 2022</h4></center>
+    </footer>
+</div>  
+<script src="js/app.js"></script>  
+</body>
+</html>

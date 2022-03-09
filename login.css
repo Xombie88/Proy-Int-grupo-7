@@ -1,0 +1,204 @@
+body{
+    background-color: #1d2124;
+    margin-top: 90px;
+}
+.inicio{
+display: flex;
+align-items: center;
+justify-content: center;
+height: 200px;
+}
+#centro{
+  background-color: #0e7970;
+  border-radius: 30px;
+  padding: 20px;
+  margin-top: 30%;
+  opacity: 0.9;
+}
+img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    margin-left: 37%;
+}
+h2{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+input{
+    display: block;
+    width: 300px;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 0;
+    font-size: 18px;
+}
+.boton{
+border-radius: 10px;
+background-color: rgb(68, 58, 102);
+margin-bottom: 10px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Serif Display', serif;
+    text-decoration: none;
+}
+
+header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #1d2124;
+}
+/*HEADER SUPERIOR*/
+
+.logo2 {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.logo {
+    width: 100px;
+}
+.search input {
+    width: 300px;
+    padding: 10px;
+}
+/*BARRA MENU*/
+
+.menu1 {
+    width: 100%;
+    height: 50px;
+   background: rgb(236, 175, 7);
+   padding: 0px 20px;
+}
+
+.menu2 {
+    max-width: 1200px;
+    margin: auto;
+    height: 100%;
+}
+
+nav {
+    height: 100%;
+}
+nav > ul {
+     height: 100%;
+     display: flex;
+}
+
+nav  ul  li {
+    height: 100%;
+    list-style: none;
+    position: relative;
+}
+
+nav > ul >  :first-child > a  {
+    background-image: url(hogar.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 20px 30px;
+
+}
+
+nav > ul > li :first-child:hover >  {
+    background-image: url(hogar.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+}
+
+
+
+nav > ul > li > a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    color: rgb(31, 28, 28);
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all 300ms ease;
+
+}
+
+nav > ul > li > a:hover{
+    transform: scale(1.1);
+    background: #fff;
+    box-shadow: 0px 0 px 10px 0px rgb(3, 3, 3);
+}
+
+#selected {
+    transform: scale(1.1);
+    background-color: rgb(221, 18, 18);
+    box-shadow: 0px 0 px 10px 0px rgb(3, 3, 3);
+}
+
+
+
+/*SUBMENU*/
+nav ul li ul {
+    width: 200px;
+     display: flex;
+     flex-direction: column;
+     background: #fff;
+     position: absolute;
+     top: 60px;
+     left: -5px;
+     padding: 10px 0px;
+     visibility: hidden;
+     opacity: 0;
+     box-shadow: 0px 0px 10px 0px black;
+     z-index: 10;
+     transition: all 300ms ease;
+}
+
+nav ul li:hover ul {
+    visibility: visible;
+    opacity: 1;
+    top: 70px;
+}
+
+nav ul li ul::before {
+    content: "";
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 12px solid white;
+    top: -12px;
+    left: 20px;
+}
+
+nav ul li ul li a {
+    display: block;
+    color: blueviolet;
+    padding: 7px;
+    padding-left: 14px;
+    text-transform: uppercase ;
+    transition: all 300ms ease;
+}
+nav ul li ul li a :hover {
+    background:  #0074c7;
+    color: white;
+    transform: scale(1.1);
+    padding-left: 30px;
+    font-size: 14px;
+    box-shadow: 0px 0px 10px 0px black;
+}
+.logo{
+    margin-left: 80px;
+    width: 60px;
+    height: 60px;
+}

@@ -1,0 +1,15 @@
+*{
+    margin: 1%;
+    padding: 1%;
+}
+.eso1{
+    background-color: #cbd0d3;
+    text-align: center;
+    border: 1px solid black;
+    }
+table th, td{
+    border: 0.2px solid #5b5b5c;
+}
+th, td {
+    padding: 10px;
+}

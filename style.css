@@ -1,0 +1,151 @@
+body {
+    background-color: #1d2124;
+}
+h1 {
+    text-align: center;
+    color: #1279a8;
+}
+h4 {
+    font-size: 16px;
+    font-weight: 700;
+}
+header {
+    padding: 20px 0 0 0;
+    background: #1d2124;
+    text-align: center;
+}
+
+@media (min-width : 750px) {
+    header {
+        text-align: left;
+    }
+}
+
+.borrar-hotel {
+    background-color: blue;
+    border-radius: 50%;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: rgb(71, 71, 71);
+}
+
+ul {
+    list-style: none;
+}
+.hero {
+    *background-image: url(ronda.jpg);
+    *height: 551px;
+}
+.encabezado {
+    margin: 30px 0;
+     color: #1279a8;
+    ;
+}
+.submenu #carrito{
+display: none;
+
+}
+
+.submenu:hover #carrito{
+    display: block;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    right: 0;
+    top: 100%;
+    z-index: 1;
+    padding: 20px;
+    background: #17181b;
+}
+.vacio {
+    padding: 10px;
+    background-color: aquamarine;
+    text-align: center;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+}
+.button{
+    background-color: #050505;
+    color: rgb(255, 255, 255);
+
+}
+.contenido-hero {
+    margin-top: 80px;
+    color: white;
+}
+.contenido-hero form{
+    position: relative;
+    margin-bottom: 0;
+   
+}
+.contenido-hero form #buscador {
+    height: 50px;
+    margin-bottom: 0;
+}
+
+.contenido-hero form .submit-buscador {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    padding: 0;
+    display: block;
+    text-indent: -9999px;
+    width: 50px;
+    background-image: url(lupa.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+    border: none;
+}
+ .barra {
+     padding: 20px 0;
+     background: #fbaf32;
+     background: -webkit-linear-gradient(left, #b95a00 0%, #ad5400 );
+
+ }
+ .barra p {
+     margin: 0;
+     color:  white;
+ }
+ .icono {
+     background-repeat: no-repeat;
+     background-position: left center;
+     padding-left: 60px;
+     background-size: 30px;
+     margin-bottom: 40px;
+     text-align: center;
+ }
+ .lista-hoteles {
+     height: 70vh;
+     padding-top: 50px;
+ }
+ .lista-hoteles h4 {
+     padding-bottom: 50px;
+ }
+ .four-columns{
+     float: left;
+     width: 35%;
+     padding: 30px;
+ }
+.contenedor-footer{
+        flex-direction: column;
+        border: none;
+    }
+
+    .content-foo{
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .content-foo h4{
+        border: none;
+    }
+
+    .content-foo p{
+        color: #ccc;
+        border-bottom: 1px solid #f2f2f2;
+        padding-bottom: 20px;
+    }
+
+    .titulo-final{
+        font-size: 20px;
+    }
